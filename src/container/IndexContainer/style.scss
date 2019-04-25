@@ -1,0 +1,29 @@
+/**
+ * Created by xu.long on 2018/4/22.
+ */
+#index {
+  height: 100%;
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    &:hover {
+      color: #1890ff;
+    }
+  }
+  .logo {
+    height: 32px;
+    //background: rgba(255,255,255,.2);
+    background: url('../../image/logo_security.png') no-repeat;
+    margin: 16px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

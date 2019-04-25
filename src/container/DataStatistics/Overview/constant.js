@@ -1,0 +1,63 @@
+/*
+ * @Author: LiaoYingLong
+ * @Date: 2018-10-21 18:35:27
+ * @Last Modified by: LiaoYingLong
+ * @Last Modified time: 2018-10-24 14:17:20
+ */
+const prefix = 'Overview/';
+
+/**
+ * 数据总览-数据简报-基本数据（上）
+ */
+export const GET_DATA_PRESENTATION = `${prefix}GET_DATA_PRESENTATION`;
+export const GET_DATA_PRESENTATION_SUCCESS = `${prefix}GET_DATA_PRESENTATION_SUCCESS`;
+export const GET_DATA_PRESENTATION_ERROR = `${prefix}GET_DATA_PRESENTATION_ERROR`;
+/**
+ * 数据总览-数据简报-人相关数据
+ */
+export const GET_PEOPLE_STATISTISC = `${prefix}GET_PEOPLE_STATISTISC`;
+export const GET_PEOPLE_STATISTISC_SUCCESS = `${prefix}GET_PEOPLE_STATISTISC_SUCCESS`;
+export const GET_PEOPLE_STATISTISC_ERROR = `${prefix}GET_PEOPLE_STATISTISC_ERROR`;
+/**
+ * 数据总览-数据简报-事相关数据
+ */
+export const GET_THING_STATISTISC = `${prefix}GET_THING_STATISTISC`;
+export const GET_THING_STATISTISC_SUCCESS = `${prefix}GET_THING_STATISTISC_SUCCESS`;
+export const GET_THING_STATISTISC_ERROR = `${prefix}GET_THING_STATISTISC_ERROR`;
+/**
+ * 数据总览-数据简报-物-财相关数据
+ */
+export const GET_GOODS_STATISTISC = `${prefix}GET_GOODS_STATISTISC`;
+export const GET_GOODS_STATISTISC_SUCCESS = `${prefix}GET_GOODS_STATISTISC_SUCCESS`;
+export const GET_GOODS_STATISTISC_ERROR = `${prefix}GET_GOODS_STATISTISC_ERROR`;
+
+/**
+ * 数据总览 || 事业部数据-消费分析(饼状图)
+ */
+export const GET_ORDER_MONEY_BY_PIE_CHART = `${prefix}GET_ORDER_MONEY_BY_PIE_CHART`;
+export const GET_ORDER_MONEY_BY_PIE_CHART_SUCCESS = `${prefix}GET_ORDER_MONEY_BY_PIE_CHART_SUCCESS`;
+export const GET_ORDER_MONEY_BY_PIE_CHART_ERROR = `${prefix}GET_ORDER_MONEY_BY_PIE_CHART_ERROR`;
+/**
+ * 数据总览 || 事业部数据-消费分析(柱状图)
+ */
+export const GET_ORDER_MONEY_DATA = `${prefix}GET_ORDER_MONEY_DATA`;
+export const GET_ORDER_MONEY_DATA_SUCCESS = `${prefix}GET_ORDER_MONEY_DATA_SUCCESS`;
+export const GET_ORDER_MONEY_DATA_ERROR = `${prefix}GET_ORDER_MONEY_DATA_ERROR`;
+
+export const GET_ORDER_COUNT_DATA = `${prefix}GET_ORDER_COUNT_DATA`;
+export const GET_ORDER_COUNT_DATA_SUCCESS = `${prefix}GET_ORDER_COUNT_DATA_SUCCESS`;
+export const GET_ORDER_COUNT_DATA_ERROR = `${prefix}GET_ORDER_COUNT_DATA_ERROR`;
+
+export const GET_USER_COUNT_DATA_BY_PIE_CHART = `${prefix}GET_USER_COUNT_DATA_BY_PIE_CHART`;
+export const GET_USER_COUNT_DATA_BY_PIE_CHART_SUCCESS = `${prefix}GET_USER_COUNT_DATA_BY_PIE_CHART_SUCCESS`;
+export const GET_USER_COUNT_DATA_BY_PIE_CHART_ERROR = `${prefix}GET_USER_COUNT_DATA_BY_PIE_CHART_ERROR`;
+
+export const GET_USER_COUNT_DATA = `${prefix}GET_USER_COUNT_DATA`;
+export const GET_USER_COUNT_DATA_SUCCESS = `${prefix}GET_USER_COUNT_DATA_SUCCESS`;
+export const GET_USER_COUNT_DATA_ERROR = `${prefix}GET_USER_COUNT_DATA_ERROR`;
+
+export const GET_COVER_PROJECT_COUNT = `${prefix}GET_COVER_PROJECT_COUNT`;
+export const GET_COVER_PROJECT_COUNT_SUCCESS = `${prefix}GET_COVER_PROJECT_COUNT_SUCCESS`;
+export const GET_COVER_PROJECT_COUNT_ERROR = `${prefix}GET_COVER_PROJECT_COUNT_ERROR`;
+
+export const RESET_STORE = 'RESET_STORE';

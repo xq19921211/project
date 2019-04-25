@@ -1,0 +1,17 @@
+.BuleItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &.abnormal .count {
+    color: #ff003d;
+  }
+  .count {
+    font-size: 26px;
+    color: #1890ff;
+    margin-bottom: 10px;
+  }
+  .desc {
+    color: rgba(0, 0, 0, 0.45);
+  }
+}

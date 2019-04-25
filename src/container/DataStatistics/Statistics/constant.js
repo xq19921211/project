@@ -1,0 +1,53 @@
+/*
+ * @Author: LiaoYingLong
+ * @Date: 2018-06-26 21:52:14
+ * @Last Modified by: WangQiBiao
+ * @Last Modified time: 2018-10-22 17:16:12
+ */
+/**
+ * 查询本月统计相关
+ */
+export const GET_MONTH_STATISTICS_RELATED = 'GET_MONTH_STATISTICS_RELATED';
+export const GET_MONTH_STATISTICS_RELATED_SUCCESS =
+    'GET_MONTH_STATISTICS_RELATED_SUCCESS';
+export const GET_MONTH_STATISTICS_RELATED_ERROR =
+    'GET_MONTH_STATISTICS_RELATED_ERROR';
+
+/**
+ * 消费数据统计
+ */
+export const GET_CLASSIFY = 'GET_CLASSIFY';
+export const GET_CLASSIFY_SUCCESS = 'GET_CLASSIFY_SUCCESS';
+export const GET_CLASSIFY_ERROR = 'GET_CLASSIFY_ERROR';
+
+/**
+ * 销售额趋势
+ */
+
+export const GET_ORDER_MONEY = 'GET_ORDER_MONEY';
+export const GET_ORDER_MONEY_SUCCESS = 'GET_ORDER_MONEY_SUCCESS';
+export const GET_ORDER_MONEY_ERROR = 'GET_ORDER_MONEY_ERROR';
+/**
+ * 订单趋势
+ */
+export const GET_ORDER_COUNT = 'GET_ORDER_COUNT';
+export const GET_ORDER_COUNT_SUCCESS = 'GET_ORDER_COUNT_SUCCESS';
+export const GET_ORDER_COUNT_ERROR = 'GET_ORDER_COUNT_ERROR';
+/**
+ * 用户数据统计
+ */
+export const GET_USER_TYPE_COUNT = 'GET_USER_TYPE_COUNT';
+export const GET_USER_TYPE_COUNT_SUCCESS = 'GET_USER_TYPE_COUNT_SUCCESS';
+export const GET_USER_TYPE_COUNT_ERROR = 'GET_USER_TYPE_COUNT_ERROR';
+/**
+ * 用户趋势
+ */
+export const GET_USER_COUNT = 'GET_USER_COUNT';
+export const GET_USER_COUNT_SUCCESS = 'GET_USER_COUNT_SUCCESS';
+export const GET_USER_COUNT_ERROR = 'GET_USER_COUNT_ERROR';
+/**
+ * 覆盖趋势
+ */
+export const GET_COVER_COUNT = 'GET_COVER_COUNT';
+export const GET_COVER_COUNT_SUCCESS = 'GET_COVER_COUNT_SUCCESS';
+export const GET_COVER_COUNT_ERROR = 'GET_COVER_COUNT_ERROR';

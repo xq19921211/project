@@ -1,0 +1,71 @@
+/**
+ * Created by xu.long on 2018/5/2.
+ */
+#toolbar {
+  min-height: 9rem;
+  background-color: #ffffff;
+  padding: 1.5rem 2.4rem;
+  .type_one_content {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .type_two_content {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    & > div {
+      display: inline-block;
+      vertical-align: top;
+      &:nth-child(2) {
+        margin-left: 5rem;
+      }
+      &:last-child {
+        margin-left: 5rem;
+      }
+    }
+    div:first-child {
+      img {
+        width: 18rem;
+        height: 9.6rem;
+        border-radius: 0.4rem;
+      }
+    }
+    div:nth-child(2) {
+      .title {
+        padding-bottom: 0.5rem;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .info {
+        .left_info {
+          display: inline-block;
+          margin-right: 6rem;
+          & > div {
+            padding-bottom: 0.5rem;
+          }
+        }
+        .right_info {
+          display: inline-block;
+          & > div {
+            padding-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    div:last-child {
+      .operate {
+        text-align: right;
+      }
+      .key {
+        margin-top: 3.4rem;
+        .status {
+          display: inline-block;
+          vertical-align: top;
+        }
+        .price {
+          display: inline-block;
+          margin-left: 6rem;
+        }
+      }
+    }
+  }
+}

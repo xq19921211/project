@@ -1,0 +1,31 @@
+/**
+ * Created by xu.long on 27/03/2018.
+ */
+#login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../image/eclean_securitybg.png') no-repeat;
+  background-size: 100%;
+  .login-form {
+    flex: 1;
+    max-width: 30rem;
+    .title {
+      margin-bottom: 4rem;
+      text-align: center;
+      color: #ffffff;
+    }
+    .tip {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: blue;
+    }
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+}

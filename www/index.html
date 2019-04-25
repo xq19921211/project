@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>e安全管理平台</title>
+<link rel="shortcut icon" href="image/eSecurityFavicon.ico" type="image/x-icon">
+<script>
+var currLoc = window.location.href;
+        var absolutePath = currLoc.match(/.*\/www/);
+
+        var baseEle = document.createElement("base");
+        baseEle.async = false;
+        baseEle.href = './';
+        document.getElementsByTagName("head")[0].appendChild(baseEle);
+        console.log('currLoc: ' + currLoc + ' and absolutePath: ' + absolutePath);
+        var cssEle = document.createElement("link");
+        cssEle.async = true;
+        cssEle.href = "./css/app.8f36633a667907cec83ff6fe448d5d8b.bundle.css";
+        cssEle.rel = "stylesheet";
+        cssEle.type = "text/css";
+        document.getElementsByTagName("head")[0].appendChild(cssEle);
+</script>
+</head>
+<body>
+<div id="rootElement" class="app-root-element"></div>
+<script>
+var vendorScriptEle = document.createElement("script");
+        vendorScriptEle.async = false;
+        vendorScriptEle.src = "./scripts/vendor.bundle.js";
+        document.getElementsByTagName("body")[0].appendChild(vendorScriptEle);
+
+        var manifestScriptEle = document.createElement("script");
+        manifestScriptEle.async = false;
+        manifestScriptEle.src = "./scripts/manifest.6f5e1fcaf18d76ded29b.bundle.js";
+        document.getElementsByTagName("body")[0].appendChild(manifestScriptEle);
+
+        var commonScriptEle = document.createElement("script");
+        commonScriptEle.async = false;
+        commonScriptEle.src = "./scripts/common.6f5e1fcaf18d76ded29b.bundle.js";
+        document.getElementsByTagName("body")[0].appendChild(commonScriptEle);
+
+        var appScriptEle = document.createElement("script");
+        appScriptEle.async = false;
+        appScriptEle.src = "./scripts/app.6f5e1fcaf18d76ded29b.bundle.js";
+        document.getElementsByTagName("body")[0].appendChild(appScriptEle);
+</script>
+</body>
+</html>

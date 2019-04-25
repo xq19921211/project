@@ -1,0 +1,40 @@
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#add_project {
+  .content {
+    overflow: auto;
+    padding: 2rem 0;
+    margin: 24px 16px;
+    background: #ffffff;
+    min-height: 280px;
+    overflow: auto;
+    .project_region_info {
+      margin: 0 2rem;
+      padding-bottom: 2rem;
+      .header {
+        text-align: center;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        line-height: 4.4rem;
+        height: 4.4rem;
+        border: 0.1rem solid rgb(221, 221, 221);
+      }
+      .dynamic-delete-button {
+        cursor: pointer;
+        position: relative;
+        top: 4px;
+        font-size: 24px;
+        color: #999;
+        transition: all 0.3s;
+      }
+      .dynamic-delete-button:hover {
+        color: #777;
+      }
+      .dynamic-delete-button[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+    }
+  }
+}

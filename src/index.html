@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>e安全管理平台</title>
+    <link rel="shortcut icon" href="image/eSecurityFavicon.ico" type="image/x-icon" />
+    <script type="text/javascript">
+        var currLoc = window.location.href;
+        var absolutePath = currLoc.match(/.*\/www/);
+
+        var baseEle = document.createElement("base");
+        baseEle.async = false;
+        baseEle.href = './';
+        document.getElementsByTagName("head")[0].appendChild(baseEle);
+        console.log('currLoc: ' + currLoc + ' and absolutePath: ' + absolutePath);
+        var cssEle = document.createElement("link");
+        cssEle.async = true;
+        cssEle.href = "<%= htmlWebpackPlugin.files.chunks.app.css %>";
+        cssEle.rel = "stylesheet";
+        cssEle.type = "text/css";
+        document.getElementsByTagName("head")[0].appendChild(cssEle);
+
+    </script>
+</head>
+
+<body>
+    <div id="rootElement" class="app-root-element"></div>
+    <script>
+
+        var vendorScriptEle = document.createElement("script");
+        vendorScriptEle.async = false;
+        vendorScriptEle.src = "<%= htmlWebpackPlugin.files.js[0] %>";
+        document.getElementsByTagName("body")[0].appendChild(vendorScriptEle);
+
+        var manifestScriptEle = document.createElement("script");
+        manifestScriptEle.async = false;
+        manifestScriptEle.src = "<%= htmlWebpackPlugin.files.chunks.manifest.entry %>";
+        document.getElementsByTagName("body")[0].appendChild(manifestScriptEle);
+
+        var commonScriptEle = document.createElement("script");
+        commonScriptEle.async = false;
+        commonScriptEle.src = "<%= htmlWebpackPlugin.files.chunks.common.entry %>";
+        document.getElementsByTagName("body")[0].appendChild(commonScriptEle);
+
+        var appScriptEle = document.createElement("script");
+        appScriptEle.async = false;
+        appScriptEle.src = "<%= htmlWebpackPlugin.files.chunks.app.entry %>";
+        document.getElementsByTagName("body")[0].appendChild(appScriptEle);
+    </script>
+</body>
+
+</html>

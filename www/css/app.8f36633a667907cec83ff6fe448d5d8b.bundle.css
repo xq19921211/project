@@ -1,0 +1,915 @@
+/**
+ * Created by xu.long on 2018/4/22.
+ */
+html {
+  font-size: 10px; }
+  html body {
+    font-size: 1.4rem; }
+    html body #rootElement {
+      height: 100%; }
+    html body .vertical-center-modal {
+      text-align: center;
+      white-space: nowrap; }
+    html body .vertical-center-modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      width: 0; }
+    html body .vertical-center-modal .ant-modal {
+      display: inline-block;
+      vertical-align: middle;
+      top: 0;
+      text-align: left; }
+/**
+ * Created by xu.long on 2018/5/3.
+ */
+#add_commodity_classify .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+  #add_commodity_classify .content .clear_fix {
+    min-width: 11.2rem;
+    min-height: 11.2rem; }
+/**
+ * Created by xu.long on 2018/5/2.
+ */
+#toolbar {
+  min-height: 9rem;
+  background-color: #ffffff;
+  padding: 1.5rem 2.4rem; }
+  #toolbar .type_one_content {
+    font-size: 2rem;
+    margin-top: 1rem; }
+  #toolbar .type_two_content {
+    margin-top: 20px;
+    margin-bottom: 50px; }
+    #toolbar .type_two_content > div {
+      display: inline-block;
+      vertical-align: top; }
+      #toolbar .type_two_content > div:nth-child(2) {
+        margin-left: 5rem; }
+      #toolbar .type_two_content > div:last-child {
+        margin-left: 5rem; }
+    #toolbar .type_two_content div:first-child img {
+      width: 18rem;
+      height: 9.6rem;
+      border-radius: 0.4rem; }
+    #toolbar .type_two_content div:nth-child(2) .title {
+      padding-bottom: 0.5rem;
+      font-size: 20px;
+      font-weight: 500; }
+    #toolbar .type_two_content div:nth-child(2) .info .left_info {
+      display: inline-block;
+      margin-right: 6rem; }
+      #toolbar .type_two_content div:nth-child(2) .info .left_info > div {
+        padding-bottom: 0.5rem; }
+    #toolbar .type_two_content div:nth-child(2) .info .right_info {
+      display: inline-block; }
+      #toolbar .type_two_content div:nth-child(2) .info .right_info > div {
+        padding-bottom: 0.5rem; }
+    #toolbar .type_two_content div:last-child .operate {
+      text-align: right; }
+    #toolbar .type_two_content div:last-child .key {
+      margin-top: 3.4rem; }
+      #toolbar .type_two_content div:last-child .key .status {
+        display: inline-block;
+        vertical-align: top; }
+      #toolbar .type_two_content div:last-child .key .price {
+        display: inline-block;
+        margin-left: 6rem; }
+/**
+ * Created by xu.long on 2018/5/3.
+ */
+#commodity_classify .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/4/27.
+ */
+#add_commodity .content {
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+  #add_commodity .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    border-bottom: 0.1rem solid #dddddd;
+    background-color: #ffffff; }
+  #add_commodity .content .commodity_info {
+    padding-top: 2rem;
+    background-color: #ffffff; }
+    #add_commodity .content .commodity_info .clear_fix {
+      min-width: 11.2rem;
+      min-height: 11.2rem; }
+  #add_commodity .content .commodity_price {
+    padding-top: 2rem;
+    background-color: #ffffff; }
+  #add_commodity .content .commodity_provider {
+    padding-top: 2rem;
+    background-color: #ffffff; }
+  #add_commodity .content .display_rule {
+    padding-top: 2rem;
+    background-color: #ffffff; }
+  #add_commodity .content .submit {
+    background-color: #ffffff; }
+/**
+ * Created by xu.long on 2018/5/2.
+ */
+#commodity_detail .ant-tabs-bar {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  margin: 0; }
+
+#commodity_detail .ant-tabs-content .content {
+  padding: 1.5rem 2.4rem;
+  height: 45.5rem;
+  overflow: auto; }
+  #commodity_detail .ant-tabs-content .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    border-bottom: 0.1rem solid #dddddd;
+    background-color: #ffffff; }
+/**
+ * Created by xu.long on 2018/4/24.
+ */
+#commodity_management .content {
+  padding: 2rem 0;
+  display: flex;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+  #commodity_management .content .left_content {
+    flex: 2;
+    border-right: 1px dashed #bbb; }
+  #commodity_management .content .right_content {
+    flex: 8;
+    padding: 0 4rem;
+    height: 100%; }
+/*
+ * @Author: LiaoYingLong
+ * @Date: 2018-06-27 21:34:40
+ * @Last Modified by: LiaoYingLong
+ * @Last Modified time: 2018-10-15 15:27:50
+ */
+#statistics {
+  padding: 24px 16px; }
+  #statistics .content {
+    padding-bottom: 2rem; }
+  #statistics .custom-card {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px; }
+    #statistics .custom-card .ant-card-body {
+      padding-left: 0;
+      padding-right: 0; }
+  #statistics .mb24 {
+    margin-bottom: 24px; }
+  #statistics .total-item-tips {
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.847059); }
+.select-button {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer; }
+  .select-button h2 {
+    display: inline-block;
+    margin-right: 5px; }
+.extra .extra-time-item {
+  display: inline-block; }
+  .extra .extra-time-item a {
+    color: rgba(0, 0, 0, 0.65);
+    margin-right: 24px; }
+    .extra .extra-time-item a.active {
+      color: #1890ff; }
+.ShuJuJianBaoCard .title {
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: center; }
+
+.ShuJuJianBaoCard .divider-after {
+  position: relative; }
+  .ShuJuJianBaoCard .divider-after::after {
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #e8e8e8; }
+  .ShuJuJianBaoCard .divider-after:last-child::after {
+    display: none; }
+
+.ShuJuJianBaoCard .list {
+  display: flex; }
+  .ShuJuJianBaoCard .list .item {
+    flex: 1; }
+.BuleItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .BuleItem.abnormal .count {
+    color: #ff003d; }
+  .BuleItem .count {
+    font-size: 26px;
+    color: #1890ff;
+    margin-bottom: 10px; }
+  .BuleItem .desc {
+    color: rgba(0, 0, 0, 0.45); }
+.ProjectData .inline-block-form-item .ant-form-item-control-wrapper {
+  display: inline-block;
+  vertical-align: middle; }
+.ShuJuJianBaoCardOneRow .list {
+  display: flex; }
+  .ShuJuJianBaoCardOneRow .list .item {
+    flex: 1; }
+.ProjectData .inline-block-form-item .ant-form-item-control-wrapper {
+  display: inline-block; }
+/**
+ * Created by xu.long on 2018/4/22.
+ */
+#index {
+  height: 100%; }
+  #index .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s; }
+    #index .trigger:hover {
+      color: #1890ff; }
+  #index .logo {
+    height: 32px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAAmCAYAAAD6HtTlAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBGNkMyMDNDNjVCMjExRTg5NDgxOUFFREU2Mjk0MDlCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjBGNkMyMDNENjVCMjExRTg5NDgxOUFFREU2Mjk0MDlCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MEY2QzIwM0E2NUIyMTFFODk0ODE5QUVERTYyOTQwOUIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEY2QzIwM0I2NUIyMTFFODk0ODE5QUVERTYyOTQwOUIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7Odmy3AAANb0lEQVR42uxbCVxU1Rr/zzDDsIrsDIQLiyIKKiGuzwVBMzVJrUwry+cvs9LUV5bls9x9VEruhllqtLjkS58rLriAW+IuIooiIijINuzMzH3fuZzBgdhEROo3H7//b+bee869557/+b7zLYNEEAQY5O8lUsMUGEg1iIFUgxhINYiBVINULbL6dDrq5lfXpm6QShyE4lJz+i5IFHIVtEIafU+uqnH+zXi0W/I1Wk55RzzW5OdDqlBAIpPV9/2CCf8kfEi48xTml733KsLvhGOEe02W1FrEk/Aq4XUiw0OdkyuSA4qcjCzMIbNqJghq9UX+slsIGU/w/V4nvEKwJgx8CqSG8DG8QOjSWKQ2pPlVEBYTrhFmM0KLUu6i+H4qvNcsRvvwJfQ9DUXJdyR0zZeTepPw/hN8vzcIbAENIGwlODTy1raWf79FSPir7aluhMuEqWRuAYkEeQlXSTs16LQ1AsoxL8Fp9Eh03hYBibGcrsVBIpWydhbUZxlhPzdVFcTI3Ly+prcZ4Xl+Xx9+bjghifAxwaMR5vYAwYSwnNCRsPuvRGobTqi7RGYEdVYOVImXYN2tO3qcj4bj8CHlDR1CBqPHuaN0rQdyb1yERpWnI60/IVbU9ocZLkttcXHX4nv3peq8fDLhBUDF7JcZoSWhBcGb0JMwnvAT4S5hJ78vkx8JF/gkL+Jac4bwOWEQwY8vTHY/+waYE2ax+hJWEiYRRhCeI+xoFFZZmvBRcaR1Zx1MCNlHPfyFKKW3sBtmQqSJUrj2yRxBX1auXCVs2rytwrmr02YKeyU21MdCOOzqKxzzDBD+CxxJmLWQPaMHIf3EoBGX9jq6S/e39sER/z4oyc7WH8dQoWbJIHxDkOn1mUo4X0u/X+ozJ3r4nN/nh0rnJ/HzsQTrx3xGjag/qe7P4pB9m/37TV2EXTARIhVK4WzIa4LqUlz57JSUlAiTJ00S3N3dhbcnThUift4qlKrV5dezT/whnO4/TNgLG2E7DeWYd1dBdTHuMl3KOz/hA+E3SKbssWuNHdLm2OfctjKpI/SIyCEkEKIJSwgDCHKClNCV4FTpHTwIHxB+J1wgpOnda8djTOgP/B5Lq7k+Tu85A5oWqa06MWL7RHfoJZwICBIuvvmekHMqtsJyj46OFgYPHiw4OjgIQ4YMFeYvWiy8O/ljYWFomHAj8VaFtum7IoX4Tz8Xiu9niMcJi5YI2yATSENtD3h2xi4LZxzrEQxBq9UfR1/ePamGsc7ibfII7Wp5rwW87fp6zImf3sL4Vy1texGKedvNBNeGJrVeXoig1qA0K2up364VsO7dvcK1y5cvIyIiAlu2bIGCYkwvLy9IySki3wkuzkrcu5eOsGVrMDCoH3x8vOHi6gK7QUEi1LkqZEWfRNwns2CmbD2DnKoHjMjSgjxY+XcSHTA9UfHPFjUMdQz/nEi4Xstrteafxo8wFWz//YLwLiGN7+1xtfQ5xiOFJYQphJGEMB4NXHtqcSo5RI6l+Zm+RUksh9AdagpC130bjpiYGFy4cAEqlQrOzs4iqYUFBXwFAVoiyN7eDjkUu36/4Sd079YFE6a8C/ndVGRGxUA5egSyo6LJeyssUVg0+wpqLXsajLRqmNr9yX9JJ5zkDg/zovMqXX+FO3Es8N9Yh9f6meBEOFWHtg48/vyKH58ljCVc5fdgq48Nnnl2an5sxD8ZcsRIATjPnaopHLQLIYKwqfGTDxLJi0Yyc6T+tBXK118GNFqEh4cjKSkJ7dq1g62trUgkI/FhF4moaGn37oua+9bY0Xh+UDAKLl5ByvY9cBlXplQZ+w9DIbOVG6m1njQlcayTnP4Kr9+qPIrbhG41jHIe156QOr7Vdo7aQiWmYeP4cR5PtHzEveuqpIB76tXJeP4uG3mS4oWnQyrQW25jA9U5CktI62RWzRASEoK1a9fC2NgYlQvvjMTi4hKkZ2TC9RlnvDxqBNzI7Obs3o+MnZFo9dk0GCkdwTRfdfEy5PY2ErpDJ1rTcYJWA4lcDqdRL1YewwQe/+VxbdBphopntVgsmkiYTLCtvCxZVpL3ZVrenM+FjMfLC3jCoLKw5zjy78u4tmn0zG4Kb1NKKCa0IkzjmryOm10j/hxm5l14vxiu4Qv4PZ5KmtDVyNwM+Tev4/6OvVC+9hKCgoOwfv16UTslfO9jZLLj5ORkuHm2x4Cgvhg29DnxWuLsUEgTEuG0dCEKbazFmb2z9kcUP7gDS/cOzClqKTak/lKpMczcW1UeA9OWgBrGWMjzvVOriMdtOJnVyYZqSGVaxwJvJSFV73xoNfcx5aT+jychapNPn2bu15iZRSOZCe6EbxRJ7ej3LFxdXWm/zIENaTEjMyUlBXm0v/brH4SJE8fD062MmLPDxsCStM918/fYffwU+nT0If0ww4M9ByA3sRW9XJ4ogMTICKXFKmTsO4QWbSokgl7k41dx7VBzIlnAP5HCpRlxM2c/MFEqbWlVaHSdtCUlcm1h0RXf8KU9FfZ2/+Z72QquOQpuYtNref/UOs6Th94iatpVGtF0kYlVODkh+/gJFMZfh2lbD4wcMRLz5s9DATlHFKPC29sbb4wdS+dHiJ1yT51BbMhouPYPhPvGVZjx5VL07tAOVkRo5sGjyD4TC9MW5c5sLt+MIbe0xu0lq9HivfH6HvDdKsalFD1djWZN7NgJmsxrsRtNpM319wHkqzNh795xsszcrJueGdXyRcE0MasB5ze1kqfepNOEN8T5VhhDU1qEGwvCxJOjxowm79Yebm5uCA0Nxfbt28sJjZ81G4e7+sPr/bdFQud8vRxFqWl4blBwGUMbNkErFEH6MNd7o7xS4GAPVeIV3PzP0trGFaMuLT13atRbB9KvxS6zce8Icw83mJGFENHSlZmYRJ+VizONzMyCedpO+5hzyMx4IKEHd9y68oqMn16a0p3QmZ8P4G268+tODU2qpD6/Jjzq5jecVz2gLSymmDUTveJPwYQmje2fzAzrJOf4acS+9BryUxIRHBUFRZ+eCFu9Dvt27kXooi/QoX075F+Jx/EugZBbNYfURKHr6sXWgk5bC8mJsurih67H91QXL+4i+JeWlITGfTgzKuvgkVcKku+4luRmBCqaO5YtjGtxcBo6dFTA9l+YxxnE+z1u6c+nBs+3LsIcvm+bgvnd/bCSYoqCtBwkLlgilth0hBan3sP1mfMQv245HLz9MSQ+D4K5AqFhK3GKiB48eKBIqFiX+moFSgoyYEKxraARt7+UCoE4LTwJGRW5VbOaQg3myd6UGxtP910aOp3Fp5kxJzckf7fxt+wzZ70zzscMMJZYRXb4ZpGSE/pDA9VymTP2Dn8+M7Ml3PvV8CLBd4RthG/0PGxj7mWzveFgU9FUXVw3VNTWgkKwSkr32EMwdrBDUthqXJ09g3x6AZ1nLUBr+s7ih8ULvkbS7WSYmZri448+gIuzE3LPnMeJgEDan50hVch1j3ibEP4w2SETS3k23XsiIKbWClZfHsboYqAico7W3FzxbaRVR19ru8De67gF8GmE7Y0V5zMJCxvKs33SpLryoJllmFD6IAsKF6VYTrt36xyUXgHw3bAall0640J8PH6N2IxcVQGKCgsxcvgLGDign3iv0/2G4UHUIVh4tNVpaSHXPHW595uZhZLMDHQ5sAM2gf94lKEG80zPmEpJgCG8NPekRWeamXf9fmOR+jj1VJYj/FKXC5ZTrJl/NUEkteeGX9Ez7qRI6Jz5czGanKXSUjU5pRr07BFQTmhS2Brcj9oJczdPHaHgudAyQslbZXXU/MwbaL8q7FEJZRLJ65lnKmV1WNy4pZaMVINUNvEU5HGL5NN5cVskRWZhAamleVnqkNm94iJcuXgZ6enpyMrKhr9fJ7z5xqtl+bVLVxE/7VOY2bmV5XfKZA13eETnSEsLIS/1Crw+m4dn3nnzUcZlygvTJ7n5e5bfV6mntez6cU74kCc0v7oiwoPGJPVxzK/+BB5ibjozlYVJt2Hm3hoB0XtIe8tixE2bNsPc0gqDBw0oy7Xl5CLGpxeK7t6lUMONNF1UzF94HrXcOSpKvYuWkyagzZdzqhqGG3c0tPzTi2teb72KC5NowmyutfpjfoswSy/tF8dTeQd1C7WW6s907hixBVLErYtGL2VZwtOAwTyZsYMnVKQcOqdJwa1IM+5HrGgKpOpXOUYxpyafnBrzNl7wj/wNJi2eqdCoJD0DfwQOQ+6lC7Bs403ayBxFzCfM1G+nIeeL/cap17UzkFlZVucQHapmiLd4qm8tqvk5ql4OmDkwM/DwN1KM6Lm1TAHLRM2p43Qxp8yuivxzVbKcbxdNhlTdfvgFEdu+4Hoi5LbW6LB+JeyfL0swZB44gkvjJqHw9i2Ye7ZlGhrFKxx/VL4R20slciMEHN4J0z/nfXXyEQcjkZXM9nGiHzWDwzT9V4IvN9F1STiY8KyXlmtoffZPCddaluS35Nqtamqk6qQ/ETu2+G6qrzpf5eg599/mdCwkfDpXJTU2TjNp6XpaKC1djbJ6YpXCNFUilaBL1A6YtXFvrO2oqrrsX04khv9P/fuJ4X9pDKQaxECqQQykGsRAqkGqkf8LMADwbjlCQZPSGwAAAABJRU5ErkJggg==) no-repeat;
+    margin: 16px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+/**
+ * Created by xu.long on 27/03/2018.
+ */
+#login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../src/image/eclean_securitybg.f9353d749387a8305ab837c74f08038f.png) no-repeat;
+  background-size: 100%; }
+  #login .login-form {
+    flex: 1;
+    max-width: 30rem; }
+    #login .login-form .title {
+      margin-bottom: 4rem;
+      text-align: center;
+      color: #ffffff; }
+    #login .login-form .tip {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: blue; }
+  #login .login-form-forgot {
+    float: right; }
+  #login .login-form-button {
+    width: 100%; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#add_builder .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#builder_detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto;
+  padding: 2rem 0; }
+  #builder_detail .content .header_info {
+    padding: 2rem 3rem;
+    border-bottom: 0.1rem solid #dddddd; }
+    #builder_detail .content .header_info img {
+      width: 6.3rem;
+      height: 6.3rem;
+      border-radius: 6.3rem;
+      margin-right: 2rem; }
+    #builder_detail .content .header_info span {
+      display: inline-block;
+      vertical-align: middle; }
+      #builder_detail .content .header_info span > div:first-child {
+        font-size: 1.7rem; }
+  #builder_detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #builder_detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #dddddd; }
+  #builder_detail .content .contact_info {
+    margin: 0 2rem; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#builder_management .content {
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto;
+  padding: 2rem 0; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#add_build_team .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#build_team_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#cover_rule_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#cover_rule_detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+  #cover_rule_detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #cover_rule_detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #dddddd; }
+  #cover_rule_detail .content .commodity_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem; }
+    #cover_rule_detail .content .commodity_info .header {
+      text-align: center;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border: 0.1rem solid #dddddd; }
+    #cover_rule_detail .content .commodity_info .data {
+      text-align: center;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border-bottom: 0.1rem solid #dddddd; }
+    #cover_rule_detail .content .commodity_info .total {
+      text-align: center;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border-bottom: 0.1rem solid #dddddd; }
+  #cover_rule_detail .content .provider_info {
+    padding: 0 2rem; }
+/**
+ * Created by xu.long on 2018/5/10.
+ */
+#add_merchant .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/10.
+ */
+#merchant_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/10.
+ */
+#add_merchant .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/10.
+ */
+#merchant_member_detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto;
+  padding: 2rem 0; }
+  #merchant_member_detail .content .header_info {
+    padding: 2rem 3rem;
+    border-bottom: 0.1rem solid #dddddd; }
+    #merchant_member_detail .content .header_info img {
+      width: 6.3rem;
+      height: 6.3rem;
+      border-radius: 6.3rem;
+      margin-right: 2rem; }
+    #merchant_member_detail .content .header_info span {
+      display: inline-block;
+      vertical-align: middle; }
+      #merchant_member_detail .content .header_info span > div:first-child {
+        font-size: 1.7rem; }
+  #merchant_member_detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #merchant_member_detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #dddddd; }
+  #merchant_member_detail .content .contact_info {
+    margin: 0 2rem; }
+/**
+ * Created by xu.long on 2018/5/10.
+ */
+#merchant_member_management .content {
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto;
+  padding: 2rem 0; }
+/**
+ * Created by xu.long on 2018/5/7.
+ */
+#order_detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+  #order_detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #order_detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #dddddd; }
+  #order_detail .content .commodity_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem; }
+    #order_detail .content .commodity_info .header {
+      text-align: center;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border: 0.1rem solid #dddddd; }
+    #order_detail .content .commodity_info .data {
+      text-align: center;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border-bottom: 0.1rem solid #dddddd; }
+    #order_detail .content .commodity_info .total {
+      text-align: center;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border-bottom: 0.1rem solid #dddddd; }
+  #order_detail .content .provider_info {
+    padding: 0 2rem; }
+
+.trackWrap {
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 2.5rem 5rem 0rem 5rem; }
+
+.trackWrap .track {
+  padding-left: 3.7rem;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 1.4rem;
+  padding-bottom: 2.5rem;
+  position: relative; }
+
+.trackWrap .track .item {
+  margin-bottom: 1rem; }
+
+.trackWrap .track .note {
+  margin-right: 10px; }
+
+.trackWrap .operateImg {
+  width: 8.5rem;
+  height: 8.5rem;
+  object-fit: fill;
+  margin-right: 1.5rem; }
+
+.track .process {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  height: 100%;
+  width: 2px;
+  background-color: #bfc7cc; }
+
+.track .process .circleOne {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #00ff31;
+  position: absolute;
+  top: 0rem;
+  left: -0.7rem; }
+
+.track .rateWrap {
+  padding-left: 3rem; }
+
+.track .rateWrap span {
+  margin-right: 1rem; }
+/**
+ * Created by xu.long on 2018/5/7.
+ */
+#order_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#account_Detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+  #account_Detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #account_Detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#setting_management .content {
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto;
+  padding: 2rem 0; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#add_home_picture .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+  #add_home_picture .content .clear_fix {
+    min-width: 11.2rem;
+    min-height: 11.2rem; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#home_picture_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#login_log_record_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#add_menu .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+  #add_menu .content .clear_fix {
+    min-width: 11.2rem;
+    min-height: 11.2rem; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#commodity_classify .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+
+#commodity_classify .hide {
+  display: none; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#operate_log_record_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#add_role .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#role_management .content {
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto;
+  padding: 2rem 0; }
+  #role_management .content .text-button::after {
+    animation: none;
+    border: 0;
+    display: none; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#add_department .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#organization_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#add_project .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+  #add_project .content .project_region_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem; }
+    #add_project .content .project_region_info .header {
+      text-align: center;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border: 0.1rem solid #dddddd; }
+    #add_project .content .project_region_info .dynamic-delete-button {
+      cursor: pointer;
+      position: relative;
+      top: 4px;
+      font-size: 24px;
+      color: #999;
+      transition: all 0.3s; }
+    #add_project .content .project_region_info .dynamic-delete-button:hover {
+      color: #777; }
+    #add_project .content .project_region_info .dynamic-delete-button[disabled] {
+      cursor: not-allowed;
+      opacity: 0.5; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#project_detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto; }
+  #project_detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #project_detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #dddddd; }
+  #project_detail .content .project_area_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem; }
+    #project_detail .content .project_area_info .header {
+      text-align: center;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border: 0.1rem solid #dddddd; }
+    #project_detail .content .project_area_info .data {
+      text-align: center;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border-bottom: 0.1rem solid #dddddd; }
+    #project_detail .content .project_area_info .total {
+      text-align: center;
+      line-height: 4.4rem;
+      height: 4.4rem;
+      border-bottom: 0.1rem solid #dddddd; }
+  #project_detail .content .provider_info {
+    padding: 0 2rem; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#project_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/6/18.
+ */
+#build_team_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+.Calendar .day-item {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  cursor: pointer; }
+  .Calendar .day-item.arranged::after {
+    content: ' ';
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 50%;
+    transform: translateX(-50%); }
+  .Calendar .day-item.active {
+    border: 1px solid green; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#add_region .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#region_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#add_tenement_company .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#tenement_company_management .content {
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#add_merchant_member .content {
+  overflow: auto;
+  padding: 2rem 0;
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#tenement_member_management .content {
+  margin: 24px 16px;
+  background: #ffffff;
+  min-height: 280px;
+  overflow: auto;
+  padding: 2rem 0; }
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#tenement_member_detail .content {
+  margin: 24px 16px;
+  background: #fff;
+  min-height: 2.8rem;
+  overflow: auto;
+  padding: 2rem 0; }
+  #tenement_member_detail .content .header_info {
+    padding: 2rem 3rem;
+    border-bottom: 0.1rem solid #dddddd; }
+    #tenement_member_detail .content .header_info img {
+      width: 6.3rem;
+      height: 6.3rem;
+      border-radius: 6.3rem;
+      margin-right: 2rem; }
+    #tenement_member_detail .content .header_info span {
+      display: inline-block;
+      vertical-align: middle; }
+      #tenement_member_detail .content .header_info span > div:first-child {
+        font-size: 1.7rem; }
+  #tenement_member_detail .content .title {
+    height: 6.4rem;
+    line-height: 6.4rem;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background-color: #ffffff; }
+  #tenement_member_detail .content .basic_info {
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #dddddd; }
+  #tenement_member_detail .content .management_info {
+    margin: 0 2rem; }
+
+/*# sourceMappingURL=app.8f36633a667907cec83ff6fe448d5d8b.bundle.css.map*/

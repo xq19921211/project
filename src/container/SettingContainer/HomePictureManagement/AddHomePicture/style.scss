@@ -1,0 +1,16 @@
+/**
+ * Created by xu.long on 2018/6/23.
+ */
+#add_home_picture {
+  .content {
+    padding: 2rem 0;
+    margin: 24px 16px;
+    background: #ffffff;
+    min-height: 280px;
+    overflow: auto;
+    .clear_fix {
+      min-width: 11.2rem;
+      min-height: 11.2rem;
+    }
+  }
+}

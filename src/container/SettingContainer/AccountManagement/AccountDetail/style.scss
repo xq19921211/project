@@ -1,0 +1,22 @@
+/**
+ * Created by xu.long on 2018/5/12.
+ */
+#account_Detail {
+  .content {
+    margin: 24px 16px;
+    background: #fff;
+    min-height: 2.8rem;
+    overflow: auto;
+    .title {
+      height: 6.4rem;
+      line-height: 6.4rem;
+      padding: 0 2rem;
+      font-size: 1.7rem;
+      background-color: #ffffff;
+    }
+    .basic_info {
+      margin: 0 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+}

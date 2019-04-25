@@ -1,0 +1,42 @@
+/**
+ * Created by xu.long on 2018/4/27.
+ */
+#add_commodity {
+  .content {
+    margin: 24px 16px;
+    background: #ffffff;
+    min-height: 280px;
+    overflow: auto;
+    .title {
+      height: 6.4rem;
+      line-height: 6.4rem;
+      padding: 0 2rem;
+      font-size: 1.7rem;
+      border-bottom: 0.1rem solid rgb(221, 221, 221);
+      background-color: #ffffff;
+    }
+    .commodity_info {
+      padding-top: 2rem;
+      background-color: #ffffff;
+      .clear_fix {
+        min-width: 11.2rem;
+        min-height: 11.2rem;
+      }
+    }
+    .commodity_price {
+      padding-top: 2rem;
+      background-color: #ffffff;
+    }
+    .commodity_provider {
+      padding-top: 2rem;
+      background-color: #ffffff;
+    }
+    .display_rule {
+      padding-top: 2rem;
+      background-color: #ffffff;
+    }
+    .submit {
+      background-color: #ffffff;
+    }
+  }
+}

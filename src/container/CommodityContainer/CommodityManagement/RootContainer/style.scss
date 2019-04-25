@@ -1,0 +1,23 @@
+/**
+ * Created by xu.long on 2018/4/24.
+ */
+#commodity_management {
+  .content {
+    padding: 2rem 0;
+    display: flex;
+    margin: 24px 16px;
+    background: #ffffff;
+    min-height: 280px;
+    overflow: auto;
+    .left_content {
+      flex: 2;
+      border-right: 1px dashed #bbb;
+      //height: 100%;
+    }
+    .right_content {
+      flex: 8;
+      padding: 0 4rem;
+      height: 100%;
+    }
+  }
+}

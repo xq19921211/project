@@ -1,0 +1,27 @@
+/**
+ * Created by xu.long on 2018/5/2.
+ */
+#commodity_detail {
+  .ant-tabs-bar {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin: 0;
+  }
+  .ant-tabs-content {
+    //background-color: #f0f2f5;
+    //padding: 1.5rem 2.4rem;
+    .content {
+      padding: 1.5rem 2.4rem;
+      height: 45.5rem;
+      overflow: auto;
+      .title {
+        height: 6.4rem;
+        line-height: 6.4rem;
+        padding: 0 2rem;
+        font-size: 1.7rem;
+        border-bottom: 0.1rem solid rgb(221, 221, 221);
+        background-color: #ffffff;
+      }
+    }
+  }
+}

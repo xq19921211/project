@@ -1,0 +1,28 @@
+.ShuJuJianBaoCard {
+  .title {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+  }
+  .divider-after {
+    position: relative;
+    &::after {
+      content: ' ';
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 1px;
+      background-color: #e8e8e8;
+    }
+    &:last-child::after {
+      display: none;
+    }
+  }
+  .list {
+    display: flex;
+    .item {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+/**
+ * Created by xu.long on 2018/4/21.
+ */
+export const EC_ROUTER = 'router';
+export const EC_LOGIN = 'loginReducer';
+export const EC_COMMODITY_MANAGEMENT = 'commodityManagementReducer';
+export const EC_COMMODITY_CLASSIFY = 'commodityClassifyReducer';
+export const EC_MERCHANT_MANAGEMENT = 'merchantManagementReducer';
+export const EC_MERCHANT_MEMBER = 'merchantMemberReducer';
+export const EC_ORDER = 'orderReducer';
+export const EC_ORGANIZATION_MANAGEMENT = 'organizationManagementReducer';
+export const EC_PROJECT_MANAGEMENT = 'projectManagementReducer';
+export const EC_TENEMENT_MEMBER = 'tenementMemberReducer';
+export const EC_SETTING_MANAGEMENT = 'settingManagementReducer';
+export const EC_ADD_COMMODITY = 'addCommodityReducer';
+export const EC_COMMODITY_DETAIL = 'commodityDetailReducer';
+export const EC_ORDER_DETAIL = 'orderDetailReducer';
+export const EC_ADD_DEPARTMENT = 'addDepartmentReducer';
+export const EC_TENEMENT_COMPANY_MANAGEMENT = 'tenementCompanyReducer';
+export const EC_PROJECT_DETAIL = 'projectDetailReducer';
+export const EC_ADD_PROJECT = 'addProjectReducer';
+export const EC_TENEMENT_MEMBER_DETAIL = 'tenementMemberDetailReducer';
+export const EC_ADD_TENEMENT_MEMBER = 'addTenementMemberReducer';
+export const EC_ADD_MERCHANT = 'addMerchantReducer';
+export const EC_ACCOUNT_DETAIL = 'accountDetailReducer';
+export const EC_ADD_ACCOUNT = 'addAccountReducer';
+export const EC_ADD_TENEMENT = 'addTenementReducer';
+export const EC_ADD_COMMODITY_CLASSIFY = 'addCommodityClassifyReducer';
+export const EC_MERCHANT_MEMBER_DETAIL = 'merchantMemberDetailReducer';
+export const EC_ADD_MERCHANT_MEMBER = 'addMerchantMemberReducer';
+export const EC_BUILDER = 'builderReducer';
+export const EC_BUILDER_DETAIL = 'builderDetailReducer';
+export const EC_ADD_BUILDER = 'addBuilderReducer';
+export const EC_BUILD_TEAM_MANAGEMENT = 'buildTeamManagementReducer';
+export const EC_ADD_BUILD_TEAM = 'addBuildTeamReducer';
+export const EC_COVER_RULE = 'coverRuleReducer';
+export const EC_COVER_RULE_DETAIL = 'coverRuleDetailReducer';
+export const EC_OPERATE_LOG_RECORD = 'operateLogRecordReducer';
+export const EC_LOGIN_LOG_RECORD = 'loginLogRecordReducer';
+export const EC_HOME_PICTURE_MANAGEMENT = 'homePictureManagementReducer';
+export const EC_ADD_HOME_PICTURE = 'addHomePictureReducer';
+export const EC_ROLE_MANAGEMENT = 'roleManagementReducer';
+export const EC_ADD_ROLE = 'addRoleReducer';
+export const EC_MENU_MANAGEMENT = 'menuManagementReducer';
+export const EC_ADD_MENU = 'addMenuReducer';
+export const EC_GET_STATISTICS = 'getStatisticsReducer';
+export const EC_GET_MENU_LIST = 'getMenuListReducer';
